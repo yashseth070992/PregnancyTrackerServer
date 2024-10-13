@@ -8,7 +8,7 @@ env_variables:
 
 automatic_scaling:
   min_instances: 1
-  max_instances: 5
+  max_instances: 2  # Lowered this value to avoid exceeding the limit
 
 handlers:
   - url: /.*
